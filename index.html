@@ -1,171 +1,308 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html lang="pt-br">
+  <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Planeta Criança</title>
+    <!-- Linking Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <!-- Linking Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style2.css" />
     <link rel="icon" href="images/Planeta Criança - ESPRO (1).png">
-    <script src="https://kit.fontawesome.com/eaa4609b2f.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/style.css" />
-</head>
+  </head>
+  <body>
+    <!-- Header / Navbar -->
+    <header>
+      <nav class="navbar">
+        <a href="#" class="nav-logo">
+          <h2 class="logo-text">🌎 Planeta Criança</h2>
+        </a>
 
-<body>
-    <div class="preloader">
-        <div></div>
-        <div>Loading Content!</div>
-    </div>
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
 
-    <nav>
-        <div class="container">
-          <div class="logo">
-    <img src="./images/Planeta Criança - ESPRO (1).png" alt="Logo Planeta Criança" class="logo-img">
-</div>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">Sobre nós</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu" class="nav-link">Nossos serviços</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials" class="nav-link">Opiniões</a>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery" class="nav-link">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contato</a>
+          </li>
+        </ul>
 
-            <div class="options">
-                <a href="./index.html" class="current">Home</a>
-                <a href="./html/about.html">Sobre nós</a>
-            </div>
-        </div>
-    </nav>
-
-    <header class="showcase">
-        <div class="container">
-            <div class="text-content">
-                <p class="sports-category">Crianças</p>
-                <h1>Planeta Criança</h1>
-                <p>
-                    Leia os artigos criado pelos colaboradores
-                </p>
-                <a href="./html/article.html">Saiba mais</a>
-            </div>
-        </div>
+        <button id="menu-open-button" class="fas fa-bars"></button>
+      </nav>
     </header>
 
-    <section>
-        <div class="container">
-            <h1 class="editor-h1">Escolha dos editores</h1>
-            <div class="articles">
-                <a href="./html/artigo.html" class="card">
-                    <img src="./images/articles/agua-1.jpg" alt="" />
-                    <article>
-                        <p class="entertainment-category">Meio Abiente</p>
-                        <h1>Consumo Consciente de Água e Energia</h1>
-                        <p>
-                        O consumo consciente de água e energia é uma prática essencial para garantir a sustentabilidade do planeta e o equilíbrio entre as necessidades humanas e os recursos naturais disponíveis.
-                        </p>
-                    </article>
-                </a>
+    <main>
+      <!-- Hero section -->
+      <section class="hero-section">
+        <div class="section-content">
+          <div class="hero-details">
+            <h2 class="title">Planeta Criança</h2>
+            <h3 class="subtitle">Um novo jeito de encarar o mundo.</h3>
+            <p class="description"></p>
 
-                <a href="./html/artigo2.html" class="card">
-                    <article>
-                        <p class="sports-category">Crianças</p>
-                        <h1>Como Ensinar as Crianças a se Prevenir da Cárie</h1>
-                        <p>
-                            Ensinar as crianças desde cedo a cuidar dos dentes é essencial para evitar problemas como a cárie dentária , uma das doenças bucais mais comuns na infância.
-                        </p>
-                    </article>
-                </a>
-
-                <a href="./html/artigo3.html" class="card">
-                    <img src="./images/articles/reciclagem.jpg" alt="" />
-                    <article>
-                        <p class="technology-category">Reciclagem</p>
-                        <h1>A importância de reutilizar materiais recicláveis para a confecção de brinquedos.</h1>
-                        <p>
-                            Mostrar às crianças o potencial de usar a criatividade na criação de um novo objeto ou brinquedo que elas possam utilizar é uma excelente forma de desenvolver uma mente sustentável.
-                        </p>
-                    </article>
-                </a>
-
-                <a href="./html/artigo4.html" class="card">
-                    <article>
-                        <p class="sports-category">Crianças</p>
-                        <h1>A Importância da Redução do Desperdício de Alimentos na Primeira Infância</h1>
-                        <p>
-                            A primeira infância é o momento ideal para desenvolver hábitos e valores que permanecem por toda a vida.
-                        </p>
-                    </article>
-                    <img src="./images/articles/lixo.jpg" alt="" />
-                </a>
-
-                <a href="./html/artigo5.html" class="card">
-                    <img src="./images/articles/borboleta.jpg" alt="" />
-                    <article>
-                        <p class="technology-category">Meio Ambiente</p>
-                        <h1>O contato com a natureza</h1>
-                        <p>
-                             o contato com a natureza tem efeitos positivos, como reduzir o estresse e a ansiedade, estimulando a liberação de hormônios como serotonina e endorfina, que promovem bem-estar, acalmam e melhoram o humor. 
-                        </p>
-                    </article>
-                </a>
-
-                <a href="./html/artigo6.html" class="card">
-                    <article>
-                        <p class="sports-category">Reciclagem</p>
-                        <h1>A regra dos 3Rs — Reduzir, Reutilizar e Reciclar </h1>
-                        <p>
-                            Atividades sustentáveis que ajudam a diminuir o impacto do ser humano no meio ambiente. 
-                        </p>
-                    </article>
-                </a>
-
-                <a href="./html/artigo7.html" class="card">
-                    <article>
-                        <p class="entertainment-category">Reciclagem</p>
-                        <h1>Educação Ambiental</h1>
-                        <p>
-                            Na Educação Infantil, que corresponde ao período do nascimento aos seis anos, a criança busca ativamente o conhecimento por meio da brincadeira, que é fundamental para o desenvolvimento físico, psíquico, cognitivo e social. 
-                        </p>
-                    </article>
-                    <img src="./images/articles/planta.jpg" alt="" />
-                </a>
-
-                
+            <div class="buttons">
+              <a href="index.html" class="button contact-us">Leia os artigos</a>
             </div>
+          </div>
+          <div class="hero-image-wrapper">
+            <img src="images/Planeta Criança - ESPRO (1).png" alt="Coffee" class="hero-image" />
+          </div>
         </div>
-    </section>
+      </section>
 
-    <footer>
-        <div class="container">
-            <div class="footer">
-                <article>
-                    <div class="container">
-          <div class="logo">
-    <img src="./images/Planeta Criança - ESPRO (1).png" alt="Logo Planeta Criança" class="logo-img">
-</div>
-                    <p>
-                        O Planeta Criança é uma empresa de consultoria dedicada a apoiar o desenvolvimento das crianças.</p>
-                </article>
+      <!-- About section -->
+      <section class="about-section" id="about">
+        <div class="section-content">
+          <div class="about-image-wrapper">
+            <img src="images/plasticina.png" alt="About" class="about-image" />
+          </div>
+          <div class="about-details">
+            <h2 class="section-title">Sobre nós</h2>
+            <p class="text">O Planeta Criança é uma empresa de consultoria dedicada a apoiar o desenvolvimento das crianças, promovendo hábitos de higiene, educação socioambiental e equilíbrio emocional. Nossa missão é gerar impacto positivo por meio de estratégias educativas eficazes, incentivando as crianças a adotarem comportamentos saudáveis, sustentáveis e responsáveis.
 
-                <article>
-                    <h4>Entre em Contato</h4>
-                    <p>Para se inscrever e recebr nossos novos artigos se inscreva com seu e-mail. </p>
-                    <input type="email" placeholder="Seu e-mail" />
-                    <a href="#">Inscreva-se</a>
-                </article>
-
-                <article>
-                    <h4>Links</h4>
-                    <p>Suporte</p>
-                    <p>Políticas do Site</p>
-                    <p>Sobre nós</p>
-                    <p>Contato</p>
-                </article>
-
-                <article>
-                    <h4>Envie suas dúvidas</h4>
-                    <p>
-                        Para qualquer dúvida, sugestão ou direcionamento envie sua mensagem para nossa equipe.
-                    </p>
-                    <a href="#">Enviar</a>
-                </article>
+Acreditamos que pequenas atitudes podem transformar o futuro. Por isso, orientamos as crianças a compreenderem sua importância na preservação do planeta e no cuidado com o próprio bem-estar. O projeto está sendo desenvolvido com base em artigos produzidos pelos colaboradores, abordando temas como meio ambiente e higiene pessoal, para ampliar o conhecimento e estimular uma formação cidadã integral.</p>
+            <div class="social-link-list">
+              <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
             </div>
+          </div>
         </div>
-    </footer>
+      </section>
 
-    <script src="./js/script.js"></script>
-</body>
+       <!-- Lista de artigos (cards) -->
+      <section class="artigos-section" id="artigos">
+        <h2 class="section-title">Últimos artigos</h2>
+        <div class="section-content">
+          <ul class="cards-list">
+            <!-- Artigo 1 -->
+            <li class="card-item">
+              <img src="../images/articles/agua-1.jpg" alt="Higiene infantil" class="card-image" />
+              <div class="card-details">
+                <h3 class="card-title">Consumo Consciente de Água e Energia</h3>
+                <p class="card-excerpt">Dicas simples para transformar </p>
+                <a href="./html/artigo.html" class="button ler-mais">Ler mais</a>
+              </div>
+            </li>
 
+            <!-- Artigo 2 -->
+            <li class="card-item">
+              <img src="../images/articles/dente.jpg" alt="Educação ambiental" class="card-image" />
+              <div class="card-details">
+                <h3 class="card-title">Como Ensinar as Crianças a se Prevenir da Cárie</h3>
+                <p class="card-excerpt">Como cuidar da saúde dos dentes</p>
+                <a href="./html/artigo2.html" class="button ler-mais">Ler mais</a>
+              </div>
+            </li>
+
+            <!-- Artigo 3 -->
+            <li class="card-item">
+              <img src="../images/articles/reciclagem.jpg" alt="Desenvolvimento emocional" class="card-image" />
+              <div class="card-details">
+                <h3 class="card-title">A importância de reutilizar materiais recicláveis para a confecção de brinquedos</h3>
+                <p class="card-excerpt">A importância da reciclagem</p>
+                <a href="./html/artigo3.html" class="button ler-mais">Ler mais</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+
+      <!-- Menu section -->
+      <section class="menu-section" id="menu">
+        <h2 class="section-title">Nossos serviços</h2>
+        <div class="section-content">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <img src="images/correr-atras.png" alt="Hot Beverages" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Dinâmicas Criativas</h3>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/quebra-cabeca.png" alt="Cold Beverages" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Conteúdo Adaptado</h3>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/higiene-bucal.png" alt="Refreshment" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Foco na higiene bucal</h3>
+                <p class="text"></p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/desenho.png" alt="Special Combos" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Foco na criatividade</h3>
+                <p class="text"></p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/sustentabilidade.png" alt="Dessert" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Foco na sustentabilidade</h3>
+                <p class="text"></p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/criancas (1).png" alt="burger & French Fries" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Foco no futuro...</h3>
+                <p class="text"></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Testimonials section -->
+      <section class="testimonials-section" id="testimonials">
+        <h2 class="section-title">Opiniões</h2>
+        <div class="section-content">
+          <div class="slider-container swiper">
+            <div class="slider-wrapper">
+              <ul class="testimonials-list swiper-wrapper">
+                <li class="testimonial swiper-slide">
+                  <img src="images/perfil.png" alt="User" class="user-image" />
+                  <h3 class="name">Sarah Silva</h3>
+                  <i class="feedback">"Amei muito! As crianças amaram"</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/perfil.png" alt="User" class="user-image" />
+                  <h3 class="name">Lara Vieira</h3>
+                  <i class="feedback">"Achei sensacional! Os artigos foram criativos!"</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/perfil.png" alt="User" class="user-image" />
+                  <h3 class="name">Marta Oliveira</h3>
+
+                  <i class="feedback">"As crianças acharam incrível!"</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/perfil.png" alt="User" class="user-image" />
+                  <h3 class="name">Aline Pontes</h3>
+
+                  <i class="feedback">"Um ideia muito criativa feita pelo coletivo! Estão de parabéns!"</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/perfil.png" alt="User" class="user-image" />
+                  <h3 class="name">Arlette Montenegro</h3>
+
+                  <i class="feedback">"Sensacional!"</i>
+                </li>
+              </ul>
+
+              <div class="swiper-pagination"></div>
+              <div class="swiper-slide-button swiper-button-prev"></div>
+              <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery section -->
+      <section class="gallery-section" id="gallery">
+        <h2 class="section-title">Galeria</h2>
+        <div class="section-content">
+          <ul class="gallery-list">
+            <li class="gallery-item">
+              <img src="images/WhatsApp Image 2025-08-17 at 22.10.54 (1).jpeg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="images/WhatsApp Image 2025-08-17 at 22.10.55 (2).jpeg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="images/WhatsApp Image 2025-08-17 at 22.10.55.jpeg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="images/WhatsApp Image 2025-08-17 at 22.10.54 (1).jpeg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="images/WhatsApp Image 2025-05-26 at 11.34.15.jpeg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="images/WhatsApp Image 2025-08-17 at 22.10.55 (3).jpeg" alt="Gallery Image" class="gallery-image" />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Contact section -->
+      <section class="contact-section" id="contact">
+        <h2 class="section-title">Entre em contato</h2>
+        <div class="section-content">
+          <ul class="contact-info-list">
+            <li class="contact-info">
+              <i class="fa-solid fa-location-crosshairs"></i>
+              <p>R. Dr. Sales de Oliveira, 1661 - Vila Industrial, Campinas - SP</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-envelope"></i>
+              <p>@projetoplanetacrianca@gmail.com</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-phone"></i>
+              <p>(19) 99481-8477</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Segunda-Feira: 8:00 - 14:00</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Iniciativa ESPRO</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Muda</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-globe"></i>
+              <p>www.planetacrianca.com</p>
+            </li>
+          </ul>
+
+          <form action="#" class="contact-form">
+            <input type="text" placeholder="Seu nome:" class="form-input" required />
+            <input type="email" placeholder="Seu e-mail:" class="form-input" required />
+            <textarea placeholder="Sua mensagem:" class="form-input" required></textarea>
+            <button type="submit" class="button submit-button">Enviar</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer section -->
+      <footer class="footer-section">
+        <div class="section-content">
+          <p class="copyright-text">© 2025 Planeta Criança</p>
+
+          <div class="social-link-list">
+            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <!-- Linking Swiper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Linking custom script -->
+    <script src="script2.js"></script>
+  </body>
 </html>
